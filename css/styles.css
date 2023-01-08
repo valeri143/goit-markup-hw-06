@@ -234,10 +234,6 @@ letter-spacing: 0.02em;
     
 }
 
-.container-team{
-    /* margin-left: 156px; */
-    /* margin-right: 156px; */
-}
 .item{
     display: flex;
 
@@ -454,7 +450,7 @@ height: 40px;
     height: 40px;
     margin-left: var(--main-margin);
     padding: 8px 24px;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 .subscribe-icon{
     margin-left: 16px;
@@ -610,9 +606,6 @@ padding: 24px;
 .modal-btn:hover .modal-icon, .modal-btn:focus .modal-icon{
     fill: var(--background-color);
 }
-.modal-form{
-   
-}
 .form-field{
     display: block;
     position: relative;
@@ -669,7 +662,7 @@ height: 16px;
 border: 1.25px solid var(--primary-color);
 border-radius: 2px;
 }
-.form-checkbox:checked{
+/* .form-checkbox:checked{
     background-color: var(--brand-color);
     border-color: transparent;
    background-image: url(<symbol id="icon-chekbox" viewBox="0 0 40 32">
@@ -677,7 +670,7 @@ border-radius: 2px;
    </symbol>);
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 .form-accept{
     font-size: 12px;
     line-height: 1,33;
